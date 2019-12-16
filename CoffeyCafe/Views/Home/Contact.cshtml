@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+
+
+
+<!-- contact -->
+<div class="contact">
+    <div class="container">
+        <h4 class="title wow fadeInDown animated" data-wow-delay=".5s">Contact Us</h4>
+        <h3 class="title1 wow fadeInDown animated" data-wow-delay=".5s">LOCATION OF OUR <span>ESPR</span>ESSO </h3>
+        <span class="bg-text">C</span>
+        <div class="map wow zoomIn animated" data-wow-delay=".5s">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d408598.8546541236!2d174.5852784679175!3d-36.862144773394114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d47fb5a9ce6fb%3A0x500ef6143a29917!2sAuckland%2C%20New%20Zealand!5e0!3m2!1sen!2sin!4v1576286658644!5m2!1sen!2sin" allowfullscreen></iframe>
+        </div>
+        <div class="contact-form">
+            <div class="col-md-5 contact-left">
+                <div class="address wow fadeInLeft animated" data-wow-delay=".5s">
+                    <h5>Address:</h5>
+                    <p><i class="glyphicon glyphicon-home"></i> 333 Broome St New York, NY 10002, </p>
+                </div>
+                <div class="address address-mdl wow fadeInLeft animated" data-wow-delay=".5s">
+                    <h5>Phones:</h5>
+                    <p><i class="glyphicon glyphicon-earphone"></i> +64 1245 7890</p>
+                    <p><i class="glyphicon glyphicon-phone"></i> +64 1234 5124</p>
+                </div>
+                <div class="address wow fadeInLeft animated" data-wow-delay=".5s">
+                    <h5>Email:</h5>
+                    <p><i class="glyphicon glyphicon-envelope"></i> <a href="mailto:info@example.com">cafe@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="col-md-7 contact-right wow fadeInRight animated" data-wow-delay=".5s">
+                <h5>Miscellaneous information:</h5>
+                <p>Landitiis atque corrupti quos dolores et quas molestias excepturim </p>
+                <form method="post" action="passMessage">
+                    <input type="text"  name="Name" id="Name" placeholder="Name" required="">
+                    <input class="email"  name="Email" id="Email" type="text" placeholder="Email" required="">
+                    <input type="text" name="Phone" id="Phone" placeholder="Phone" required="">
+                    <textarea placeholder="Message" name="Msg" Id="Msg" required=""></textarea>
+                    <input class="wow zoomIn animated" data-wow-delay=".5s" type="submit" value="SUBMIT">
+                    <input class="wow zoomIn animated" data-wow-delay=".5s" type="reset" value="CLEAR">
+                </form>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!-- //contact -->
