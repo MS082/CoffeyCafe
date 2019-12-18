@@ -75,7 +75,7 @@ namespace CoffeyCafe.Controllers
             SqlConnection sqlcon = new SqlConnection();
             SqlCommand sqlcmd = new SqlCommand();
 
-            sqlcon.ConnectionString = "Data Source=DESKTOP-HKD1BEO\\SQLEXPRESS;Initial Catalog=coffeCafe;Integrated Security=True";
+            sqlcon.ConnectionString = "Data Source=LAPTOP-RFTA97Q7\\SQLEXPRESS01;Initial Catalog=coffeCafe;Integrated Security=True";
 
 
 

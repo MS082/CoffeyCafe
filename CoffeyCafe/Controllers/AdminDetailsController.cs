@@ -25,7 +25,7 @@ namespace CoffeyCafe.Controllers
             SqlCommand sqlcmd = new SqlCommand();
             SqlDataReader sqldr;
 
-            sqlcon.ConnectionString = "Data Source=DESKTOP-HKD1BEO\\SQLEXPRESS;Initial Catalog=coffeCafe;Integrated Security=True";
+            sqlcon.ConnectionString = "Data Source=LAPTOP-RFTA97Q7\\SQLEXPRESS01;Initial Catalog=coffeCafe;Integrated Security=True";
             sqlcon.Open();
             sqlcmd.Connection = sqlcon;
             sqlcmd.CommandText = "select * from AdminDetails where AdminName='" + instance_Admin.AdminName + "' and AdminPassword='" + instance_Admin.AdminPassword + "'";
